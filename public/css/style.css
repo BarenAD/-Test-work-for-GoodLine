@@ -1,0 +1,289 @@
+body
+{
+	background: #ececec;
+	margin: 0;
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+
+.my_MAIN_area
+{
+	width: 100%;
+	height: 100%;
+}
+
+.default_text
+{
+	display: block;
+	font-size: 100%;
+	font-weight: 1000;
+	text-transform: uppercase;
+}
+
+.default_text_and_line_below
+{
+	display: block;
+	font-size: 100%;
+	font-weight: 1000;
+	text-transform: uppercase;
+	width: 100%;
+	padding: 10px 0 0 5%;
+	border-bottom: 3px solid #CBCBCB;
+}
+
+.Header_area
+{
+	background: linear-gradient(180deg, rgba(1,106,171,1) 0%, rgba(2,56,89,1) 100%);
+	height: 50px;
+	width: 100%;
+}
+	.Header_container_area
+	{
+		height: 100%;
+		width: 80%;
+		margin: auto;
+	}
+	
+	.logo_analog_pastebin
+	{
+		background: url(../img/pastebin_logo_side_outline.png) no-repeat 0 -2px;
+		background-size: 45px;
+		cursor: pointer;
+		float: left;
+		font-size: 100%;
+		font-weight: 1000;
+		color: white;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		margin: 7px 25px 0 20px;
+		padding: 0 0 5px 43px;
+	}
+	
+	.Button_New_Paste
+	{
+		float: left;
+		background: linear-gradient(180deg, rgba(115,226,120,1) 0%, rgba(97,186,101,1) 100%);
+		border: none;
+		border-radius: 3px;
+		color: #fff;
+		cursor: pointer;
+		font-size: 1em;
+		font-weight: 400;
+		height: 30px;
+		line-height: 27px;
+		text-transform: lowercase;
+		margin: 10px 0 10px 0;
+		padding: 0 10px 0 10px;
+		outline: none;
+	}
+	.Button_New_Paste:active
+	{
+		background: linear-gradient(180deg, rgba(97,186,101,1) 0%, rgba(115,226,120,1) 100%);
+	}
+	
+.Basic_area
+{
+	background: #ffffff;
+	border-left: 1px solid #000000;
+	border-radius: 5px;
+	width: 80%;
+	height: 100%;
+	margin: auto;
+}
+	
+.ContentArea
+{
+	width: 79%;
+	height: 100%;
+	float: left;
+}
+
+.Right_Bar_area
+{
+	background: #ffffff;
+	border-left: 1px dashed #CBCBCB;
+	border-right: 1px solid #000000;
+	border-radius: 5px 5px 0 0;
+	float: right;
+	width: 20%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.avatar
+{
+	width: 40px;
+	height: 40px;
+	float: right;
+	display: block;
+	margin: 5px 10px 5px 0;
+}
+
+.UserName
+{
+	float: right;
+	display: block;
+	margin: 16px 15px 16px 0;
+	font-size: 100%;
+	font-weight: 1000;
+	color: white;
+	text-transform: uppercase;
+}
+
+.my_profile_icons
+{
+	width: 20px;
+	height: 20px;
+	float: right;
+	display: block;
+	margin: 15px 15px 15px 0;
+	cursor: pointer;
+}
+
+	.my_profile_icons:hover
+	{
+		width: 24px;
+		height: 24px;
+		margin: 13px 13px 13px -2px;
+	}
+	
+.search_div
+{
+	width: 190px;
+	height: 28px;
+	float: left;
+	display: block;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	outline: none;
+	background: #156798;
+	margin: 11px 0 11px 20px;
+}
+
+	.search_div img
+	{
+		width: 20px;
+		height: 20px;
+		float: right;
+		margin: 4px 7px 4px 0;
+	}
+	
+	.search_div img:hover
+	{
+		width: 22px;
+		height: 22px;
+		margin: 3px 6px 3px 0;
+	}
+	
+	.search_div input
+	{
+		width: 150px;
+		height: 24px;
+		float: left;
+		color: white;
+		margin: 2px 0 2px 5px;
+		outline: none;
+		text-align: center;
+		background: none;
+		padding: 0 0 0 5px;
+		border: none;
+		border-right: 2px solid #174D6F;
+	}
+	
+.TextReaderPaste
+{
+	width: 90%;
+    height: 40%;
+    resize: none;
+	margin: 3px 5% 0 5%;
+	overflow: auto;
+}
+
+.Pate_block_in_right_bar
+{
+	display: block;
+	width: 100%;
+	border-top: 1px dashed #CBCBCB;
+	margin: 5px 0 5px 0;
+	padding: 15px 0 10px 0;
+	text-align: center;
+}
+	.Pate_block_in_right_bar a
+	{
+		text-decoration: none;
+		color: #e3342f;
+	}
+	.Pate_block_in_right_bar a:hover
+	{
+		text-decoration: none;
+		color: #1d68a7;
+	}
+
+.LineFrameOptionalPasteSettings
+{
+	float: left;
+	width: 100%;
+	height: 40px;
+	display: block;
+}
+
+	.LineFrameOptionalPasteSettings text
+	{
+		display: block;
+		width: 50%;
+		float: left;
+		margin: 10px 0 10px 0;
+		text-align: left;
+		font-size: 100%;
+		font-weight: 1000;
+		text-transform: uppercase;
+	}
+	
+	.LineFrameOptionalPasteSettings select
+	{
+		width: 50%;
+		float: right;
+		height: 30px;
+		margin: 5px 0 5px 0;
+		outline: none;
+	}
+	
+	.LineFrameOptionalPasteSettings input
+	{
+		width: 50%;
+		float: right;
+		height: 30px;
+		margin: 5px 0 5px 0;
+		text-align: center;
+		outline: none;
+	}
+
+.WindowViewLinkPaste
+{
+	width: 30%;
+	height: 100px;
+	background: #f6993f;
+	outline: 2px solid #000000;
+	top: 50%;
+	left: 35%;
+	display: block;
+	position: absolute;
+	z-index: 100;
+	text-align: left;
+}
+	.WindowViewLinkPasteInputText
+	{
+		float: left;
+		margin: 25px 0 40px 20px;
+		height: 20px;
+		width: 80%;
+	}
+	.WindowViewLinkPasteInputButton
+	{
+		float: right;
+		background: #e3342f;
+		margin: 10px;
+	}

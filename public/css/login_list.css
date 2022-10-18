@@ -1,0 +1,48 @@
+.login_list 
+{
+    display: block;
+    margin: 5px 10px 5px 0;
+	float: right;
+	padding: 20px;
+	background: url(../img/galkalist.png) no-repeat 0 -2px;
+	background-size: 40px;
+	cursor: pointer;
+	position: relative;
+}
+	.login_list ul
+	{
+		padding: 10px 0 0 0;
+		margin: 15px 0 0 -150px;
+		float: left;
+		position: absolute;
+	}
+	
+	.login_list:hover .login_sublist
+	{
+		display: block;
+	}
+	
+	
+.login_sublist 
+{
+    width: 240px;
+	display: none;
+}
+	.login_sublist li
+	{
+		display: block;
+		text-decoration: none;
+		padding: 10px;
+		color: #ffffff;
+		background: #023F65;
+	}
+	.login_sublist li:hover
+	{
+		background-color: #0164A2;
+		text-decoration: underline;
+	}
+	.login_sublist a
+	{
+		text-decoration: none;
+		color: #ffffff;
+	}
